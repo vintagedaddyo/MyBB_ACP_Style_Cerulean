@@ -565,7 +565,7 @@ EOF;
 		echo "	<br style=\"clear: both;\" />";
 		echo "	</div>\n";
 		//echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a>.</p></div>\n";
-		echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a> All Rights Reserved.&nbsp;&nbsp;Theme \"Cerise ACP\" created by <a href=\"http://community.mybb.com/user-6029.html\" target=\"_blank\"><b>Vintagedaddyo</b></a>&nbsp;&amp;&nbsp;<a href=\"http://community.mybb.com/user-78269.html\" target=\"_blank\"><b>Wage</b></a>.</p></div>\n";
+		echo "<div id=\"footer\"><p class=\"generation\">".$lang->sprintf($lang->generated_in, $totaltime, $debuglink, $querycount, $memory_usage)."</p><p class=\"powered\">Powered By <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB</a>, &copy; 2002-".COPY_YEAR." <a href=\"http://www.mybb.com/\" target=\"_blank\">MyBB Group</a> All Rights Reserved.&nbsp;&nbsp;Theme \"Cerise ACP\" created by <a href=\"https://github.com/vintagedaddyo/MyBB_ACP_Style_Cerulean\" target=\"_blank\"><b>Vintagedaddyo</b></a>&nbsp;&amp;&nbsp;<a href=\"http://community.mybb.com/user-78269.html\" target=\"_blank\"><b>Wage</b></a>.</p></div>\n";
 		if($mybb->debug_mode)
 		{
 			echo $db->explain;
