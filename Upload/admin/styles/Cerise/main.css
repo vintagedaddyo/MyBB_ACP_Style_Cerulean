@@ -797,7 +797,7 @@ div.success {
 
 div.error p, div.success p {
 	margin: 0;
-	color: #000;
+	color: #a0a0a0;
 	font-weight: normal;
 }
 
